@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7/news-homepage)
-- Live Site URL:(https://karam-7.github.io/news-homepage/)
+- Solution URL:(https://github.com/karam-7/notifications-page)
+- Live Site URL:(https://karam-7.github.io/notifications-page/)
 
 ## My process
 
