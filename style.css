@@ -1,0 +1,156 @@
+@import url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.6rem;
+    min-width: 1440px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: hsl(210, 60%, 98%);
+}  
+
+/* ======================== Star Main Area ================ */
+
+.site{
+    padding: 2.4rem 1.6rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+}
+
+.title-h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: hsl(224, 21%, 14%);
+}
+
+.num{
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: hsl(224, 21%, 14%);
+    color: hsl(0, 0%, 100%);
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+.title-a{
+    color: hsl(219, 12%, 42%);
+}
+
+.read, .unread{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.unread{
+    background-color: hsl(205, 33%, 90%);
+}
+
+.circle{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: hsl(1, 90%, 64%);
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: hsl(224, 21%, 14%);
+}
+
+.info-para{
+    color: hsl(219, 14%, 63%);
+}
+
+.pic{
+    cursor: pointer;
+}
+
+.private{
+    border: 1px solid hsl(205, 33%, 90%);
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+
+.time{
+    color: hsl(219, 12%, 42%);
+    margin-top: 10px;
+}
+
+.private:hover{
+    background-color: hsl(219, 14%, 63%);
+}
+
+
+ /* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+    margin-top: 70px;
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+
+@media screen and (max-width:602px) {
+    body{
+        min-width: 602px;
+    }
+}  
+
+
+  /* ======================== End Media Querry Area ================ */
